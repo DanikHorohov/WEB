@@ -1,0 +1,55 @@
+[class*="__container"] {
+    width: 600px;
+    height: 300px;
+    border: 2px solid #ddd;
+    display: block;
+    margin: 20px auto;
+    background-color: #fdfdfd;
+}
+svg{
+    width: 100%;
+    height: 100%;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: clip;
+}
+.wrapper > main{
+    flex: 1 1 auto;
+}
+.wrapper * {
+    min-width: 0;
+}
+.header{
+    text-align: center;
+}
+.footer{
+
+    text-align: center;
+}
+.footer div{
+    font-style: italic;
+}
+.animated-circle {
+    stroke: blue;
+    fill: lightblue;
+    stroke-width: 5px;
+    animation: changeColor 3s infinite alternate;
+}
+
+@keyframes changeColor {
+    0% {
+        stroke: blue;
+        fill: lightblue;
+    }
+    50% {
+        stroke: red;
+        fill: yellow;
+    }
+    100% {
+        stroke: green;
+        fill: pink;
+    }
+}
