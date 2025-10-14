@@ -1,0 +1,23 @@
+.box {
+  background: lightgreen;
+  padding: 20px;
+  margin: 10px;
+  border: 5px solid green;
+  width: 150px;
+}
+.block {
+  display: block;
+}
+.inline {
+  display: inline;
+}
+.flex {
+  display: flex;
+  gap: 10px;
+}
+.content-box {
+  box-sizing: content-box;
+}
+.border-box {
+  box-sizing: border-box;
+}

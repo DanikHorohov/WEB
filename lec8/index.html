@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main Page</title>
+    <style>
+      body {
+        font-size: 25px;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+        transition: color 0.25s;
+      }
+      li:not(:last-child) {
+        margin-bottom: 5px;
+      }
+      @media (any-hover: hover) {
+        a:hover {
+          color: orange;
+          text-decoration: underline;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Основна сторінка</h1>
+    <div>
+      <strong>Задання:</strong>
+      <nav>
+        <ul>
+          <li>
+            <a href="./block-inline/block-inline.html" target="_blank"
+              >Блокові та інлайнові елементи</a
+            >
+          </li>
+          <li>
+            <a href="./normalize.html" target="_blank"
+              >Сторінка з Normalize.css</a
+            >
+          </li>
+          <li>
+            <a href="./reset.html" target="_blank">Сторінка з Reset.css</a>
+          </li>
+          <li>
+            <a href="./display-boxsizing/display-boxsizing.html" target="_blank"
+              >Властивості display + box-sizing</a
+            >
+          </li>
+          <li>
+            <a href="./float-clear/float-clear.html" target="_blank"
+              >Float + Clear</a
+            >
+          </li>
+          <li>
+            <a href="./overflow/overflow.html" target="_blank">Overflow</a>
+          </li>
+          <li>
+            <a href="./position/position.html" target="_blank">Position</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </body>
+</html>
