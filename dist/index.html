@@ -2,11 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" type="image/svg+xml" href="./assets/favicon-5uweb3-m.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Final Project</title>
-    <script type="module" crossorigin src="./assets/index-D_ShJXQH.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-fY621On_.css">
+      <meta name="description" content="Final project with the use of HTML, SCSS, JS. Web-design. View skills, gallery and posts.">
+      <link rel="preload" as="image" href="./assets/hero-bg-CGWr1HDh.jpg">
+    <script type="module" crossorigin src="./assets/index-BfFFsZsA.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-ioYkT3xH.css">
   </head>
   <body>
     <div class="wrapper">
@@ -19,12 +22,12 @@
                 <nav class="header__menu menu">
                     <div class="menu__body">
                         <ul class="menu__list">
-                            <li class="menu__list-item"><a href="#" class="menu__item-link">home</a></li>
-                            <li class="menu__list-item"><a href="#" class="menu__item-link">about</a></li>
-                            <li class="menu__list-item"><a href="#" class="menu__item-link">contacts</a></li>
+                            <li class="menu__list-item"><a href="#" target="_blank" class="menu__item-link">home</a></li>
+                            <li class="menu__list-item"><a href="#" target="_blank" class="menu__item-link">about</a></li>
+                            <li class="menu__list-item"><a href="#" target="_blank" class="menu__item-link">contacts</a></li>
                         </ul>
                     </div>
-                    <button type="button" class="menu__icon icon-menu"><span></span></button>
+                    <button type="button" class="menu__icon icon-menu" aria-label="Open menu"><span></span></button>
                 </nav>
             </div>
         </header>
@@ -43,44 +46,44 @@
             </div>
             <div class="page__gallery gallery">
                 <div class="gallery__items">
-                    <article class="gallery__item gallery__item--row-big-1">
+                    <a href="/src/assets/gallery/01.jpg" target="_blank" class="gallery__item gallery__item--row-big-1">
                         <div class="gallery__txt">html</div>
                         <img src="./assets/01-DgaXK4Em.jpg" alt="First Image" class="gallery__img">
-                    </article>
-                    <article class="gallery__item gallery__item--col-big-1">
+                    </a>
+                    <a href="/src/assets/gallery/02.jpg" target="_blank" class="gallery__item gallery__item--col-big-1">
                         <div class="gallery__txt">css</div>
                         <img src="./assets/02-BDkWdddG.jpg" alt="Second Image" class="gallery__img">
-                    </article>
-                    <article class="gallery__item">
+                    </a>
+                    <a href="/src/assets/gallery/03.jpg" target="_blank" class="gallery__item">
                         <div class="gallery__txt">markup</div>
                         <img src="./assets/03-CnjFhXGW.jpg" alt="Third Image" class="gallery__img">
-                    </article>
-                    <article class="gallery__item gallery__item--col-adpt">
+                    </a>
+                    <a href="/src/assets/gallery/04.jpg" target="_blank" class="gallery__item gallery__item--col-adpt">
                         <div class="gallery__txt">web-design</div>
                         <img src="./assets/04-Bt4yOhjS.jpg" alt="Fourth Image" class="gallery__img">
-                        </article>
-                    <article class="gallery__item gallery__item--row-big-1 gallery__item--col-big-1">
+                        </a>
+                    <a href="/src/assets/gallery/05.jpg" target="_blank"  class="gallery__item gallery__item--row-big-1 gallery__item--col-big-1">
                         <div class="gallery__txt">Quality Assurance</div>
                         <img src="./assets/05-BKWEkkLY.jpg" alt="Fifth Image" class="gallery__img">
-                    </article>
-                    <article class="gallery__item gallery__item--column-big">
+                    </a>
+                    <a href="/src/assets/gallery/06.jpg" target="_blank" class="gallery__item gallery__item--column-big">
                         <div class="gallery__txt">Codding</div>
                         <img src="./assets/06-CXu2pVL1.jpg" alt="Sixth Image" class="gallery__img">
-                    </article>
-                    <article class="gallery__item gallery__item--row-adpt">
+                    </a>
+                    <a href="/src/assets/gallery/07.jpg" target="_blank" class="gallery__item gallery__item--row-adpt">
                         <div class="gallery__txt">Adaptability</div>
                         <img src="./assets/07-YrHM2ixf.jpg" alt="Seventh Image" class="gallery__img">
-                    </article>
-                    <article class="gallery__item">
+                    </a>
+                    <a href="/src/assets/gallery/08.jpg" target="_blank" class="gallery__item">
                         <div class="gallery__txt">php</div>
                         <img src="./assets/08-BZGhDrtv.jpg" alt="Eighth Image" class="gallery__img">
-                    </article>
-                    <article class="gallery__item gallery__item--col-adpt-1">
+                    </a>
+                    <a href="/src/assets/gallery/09.jpg" target="_blank" class="gallery__item gallery__item--col-adpt-1">
                         <div class="gallery__txt">seo</div>
                         <img src="./assets/09-DbzLOmyl.jpg" alt="Ninth Image" class="gallery__img">
-                    </article>
+                    </a>
                 </div>
-                <button class="gallery__viewAll-button viewAll-button">View all skills</button>
+                <button class="gallery__viewAll-button viewAll-button" title="Show more">View all skills</button>
             </div>
             <section class="page__ready ready">
                 <div class="ready__container">
@@ -109,7 +112,7 @@
                     <form action="#" method="post" class="subscribe__form form">
                         <input type="text" name="name" id="name" required placeholder="Your name..." class="form__input">
                         <input type="email" name="email" id="email" required placeholder="Your email..." class="form__input">
-                        <button type="submit" class="form__button">Subscribe</button>
+                        <button type="submit" class="form__button" title="Send form">Subscribe</button>
                     </form>
                 </div>
             </div>
@@ -201,7 +204,7 @@
                             </div>
                         </article>
                     </div>
-                    <button class="posts__viewAll-button viewAll-button">View all posts</button>
+                    <button class="posts__viewAll-button viewAll-button" title="Show more">View all posts</button>
                 </div>
             </section>
         </main>
